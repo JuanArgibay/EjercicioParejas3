@@ -1,1 +1,45 @@
 /* Aquí el CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+
+/*HEADER*/
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 3rem;
+    align-items: center;
+    justify-content: end;
+    
+
+}
+
+header menu a {
+    color: white;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+}
+
+
+button {
+    background-color: #2D9CDB;
+    color:white;
+    border: none;
+    height: 1.5rem;
+    width: 10rem;
+    font-weight: bold;
+}
